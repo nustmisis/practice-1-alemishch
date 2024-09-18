@@ -10,4 +10,7 @@ height = input()
 
 
 #Ваш кол
+print('рост должен быть в метрах!!')
+BMI = float(weight)/(float(height)**2)
 
+print(BMI)
