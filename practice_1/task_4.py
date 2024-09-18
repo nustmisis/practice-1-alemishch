@@ -6,3 +6,15 @@
 
 @author: Savant
 """
+while True:
+	num = input('Введите четырёхзначное число:\n')
+	try:
+		if int(num) and len(num) == 4:
+			break
+		else:
+			print('В числе не 4 знака')
+	except Exception as e:
+		print('Вы ввели не число')
+
+ans = sum([int(i) for i in list(num)])
+print(ans)
